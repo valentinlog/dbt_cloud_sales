@@ -2,7 +2,7 @@
       config(
 
                     materialized='incremental',
-                    unique_key = ['sales_order_number', 'order_date', 'customer_name','item']
+                    unique_key = ['Sales_Order_Number', 'Order_Date', 'Customer_Name','Item']
         
             )
 
