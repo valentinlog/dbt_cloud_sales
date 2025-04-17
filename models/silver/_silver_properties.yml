@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: silver_sales
+    config: 
+      materialized: table
+      schema: silver

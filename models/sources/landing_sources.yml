@@ -1,0 +1,6 @@
+sources:
+  - name: landing
+    database: sales_dev
+    schema: landing  
+    tables:
+      - name: sales
