@@ -5,3 +5,11 @@ models:
     config: 
       materialized: table
       schema: bronze
+  - name: bronze_product
+    config: 
+      materialized: table
+      schema: bronze 
+  - name: bronze_region
+    config: 
+      materialized: table
+      schema: bronze      
