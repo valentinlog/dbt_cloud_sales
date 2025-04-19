@@ -8,4 +8,4 @@ select
         sales_amount,
         total_product_cost,
         CAST(created_at AS DATE) as date_inserted
-from   {{ ref('silver_silver') }}
+from   {{ ref('silver_sales') }}
