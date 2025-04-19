@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: gold_fact_sales
+    config: 
+      materialized: table
+      schema: gold
+  - name: dim_product
+    config: 
+      materialized: table
+      schema: gold
+  - name: dim_region
+    config: 
+      materialized: table
+      schema: gold
+
