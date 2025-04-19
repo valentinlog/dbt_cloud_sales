@@ -1,1 +1,2 @@
-select * from  {{ ref('bronze_product') }}
+-- Silver perform data transformation
+select * from   {{ ref('bronze_product') }}

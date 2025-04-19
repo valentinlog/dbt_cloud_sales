@@ -5,3 +5,7 @@ models:
     config: 
       materialized: table
       schema: silver
+  - name: silver_product
+    config: 
+      materialized: table
+      schema: silver
